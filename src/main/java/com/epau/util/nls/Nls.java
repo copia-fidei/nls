@@ -1,4 +1,4 @@
-package com.epau.utilities.nls;
+package com.epau.util.nls;
 
 import org.jetbrains.annotations.NonNls;
 
