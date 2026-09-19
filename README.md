@@ -49,3 +49,8 @@ class Example {
 ```
 Note: If the key has no corresponding value, then the key is returned.
 
+### Usage with Java 9 modules
+If your application uses the Java Platform Module System (JPMS), open the package containing your NLS resources to the NLS module.
+Inside module-info.java add:
+`opens com.your.package to com.epau.util.nls;`
+
