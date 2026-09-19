@@ -1,7 +1,5 @@
 package com.epau.util.nls;
 
-import org.jetbrains.annotations.NonNls;
-
 import java.text.MessageFormat;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
@@ -11,7 +9,6 @@ import static java.util.ResourceBundle.getBundle;
 import static java.util.logging.Level.WARNING;
 import static java.util.logging.Logger.getLogger;
 
-@NonNls
 public class Nls {
 
 	private static final Logger LOG = getLogger(Nls.class.getName());
